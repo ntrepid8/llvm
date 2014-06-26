@@ -32,6 +32,7 @@ add_llvm_library(LLVMScalarOpts
   MemCpyOptimizer.cpp
   MergedLoadStoreMotion.cpp
   NaryReassociate.cpp
+  NullCheckElimination.cpp
   PartiallyInlineLibCalls.cpp
   PlaceSafepoints.cpp
   Reassociate.cpp

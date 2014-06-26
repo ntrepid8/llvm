@@ -302,6 +302,9 @@ void initializeSjLjEHPreparePass(PassRegistry&);
 void initializeDemandedBitsPass(PassRegistry&);
 void initializeFuncletLayoutPass(PassRegistry &);
 void initializeLoopLoadEliminationPass(PassRegistry&);
+
+// Specific to the rust-lang llvm branch:
+void initializeNullCheckEliminationPass(PassRegistry&);
 }
 
 #endif
